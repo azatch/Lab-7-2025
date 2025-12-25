@@ -1,8 +1,6 @@
 package functions;
 
-import java.io.Serializable;
-
-public interface TabulatedFunction extends Iterable<FunctionPoint> {
+public interface TabulatedFunction extends Iterable<FunctionPoint>, Function, Cloneable {
     double getLeftDomainBorder();
 
     double getRightDomainBorder();

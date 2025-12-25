@@ -1,11 +1,10 @@
 import functions.*;
+import functions.basic.Cos;
 import functions.basic.Exp;
 import functions.basic.Log;
-import functions.basic.Cos;
-import functions.basic.Sin;
-import threads.*;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import threads.*;
 
 public class Main {
 
